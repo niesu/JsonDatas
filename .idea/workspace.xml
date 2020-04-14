@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dfa72e67-9f39-4c89-8bf0-3c883ee79b1b" name="Default Changelist" comment="spark_parse">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JsonDatas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/MementTable_Commentsns.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/Mement_ContentTable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/Mement_LikesnsTable.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/JsonDatas.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/util/ParseJsonData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$1$$anonfun$apply$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$2$$anonfun$apply$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$2$$anonfun$apply$3$$anonfun$apply$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$2$$anonfun$apply$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$3$$anonfun$apply$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$3$$anonfun$apply$6$$anonfun$apply$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$3$$anonfun$apply$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$4$$anonfun$apply$8.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$4$$anonfun$apply$9.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$5$$anonfun$apply$10.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$5$$anonfun$apply$11$$anonfun$apply$12.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$5$$anonfun$apply$11.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$anonfun$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$typecreator1$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$typecreator2$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$typecreator3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$typecreator4$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$$typecreator5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/JsonData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/BaseData$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/BaseData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/BaseTable$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/BaseTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/ChatsTable$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/ChatsTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/ConversationTable$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/ConversationTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/GroupTable$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/GroupTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/Mement_CommentsnsTable$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/Mement_CommentsnsTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/Mement_ContentTable$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/Mement_ContentTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/Mement_LikesnsTable$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/Mement_LikesnsTable.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/UserTable$.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/offcn/wechat/bean/UserTable.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JsonDatas" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/JsonData.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+              <folding>
+                <element signature="e#27#52#0" expanded="true" />
+                <element signature="e#12367#12387#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/MementTable_Commentsns.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="10" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-220" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Data/Data.json" />
+        <option value="$PROJECT_DIR$/src/main/java/com/offcn/util/ParseJosnData.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/offcn/util/ParseJsonData.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/BaseData.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/BaseTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/GroupTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/ConversationTable.scala" />
+        <option value="$PROJECT_DIR$/Data/json" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/UserTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/ChatsTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/MementTable_Commentsns.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/Mement_ContentTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/Mement_LikesnsTable.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/com/offcn/wechat/JsonData.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\software\RepMaven" />
+        <option name="mavenHome" value="D:/apache-maven-3.2.2" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.2.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="13" />
+    <option name="width" value="1346" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="JsonDatas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonDatas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JsonDatas" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JsonDatas" type="462c0819:PsiDirectoryNode" />
+              <item name="Data" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\JsonDatas\Data" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="JsonData" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.offcn.wechat.JsonData" />
+      <module name="JsonDatas" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.offcn.wechat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JsonData" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dfa72e67-9f39-4c89-8bf0-3c883ee79b1b" name="Default Changelist" comment="" />
+      <created>1585798624532</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585798624532</updated>
+      <workItem from="1585798627703" duration="15032000" />
+      <workItem from="1585875169920" duration="324000" />
+      <workItem from="1586063964967" duration="7806000" />
+      <workItem from="1586154901900" duration="784000" />
+      <workItem from="1586222505665" duration="13410000" />
+      <workItem from="1586669803209" duration="3897000" />
+      <workItem from="1586740947759" duration="26814000" />
+      <workItem from="1586825351846" duration="1511000" />
+    </task>
+    <task id="LOCAL-00001" summary="spark">
+      <created>1585815911525</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585815911525</updated>
+    </task>
+    <task id="LOCAL-00002" summary="spark_parse">
+      <created>1586826867372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586826867372</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="69578000" />
+  </component>
+  <component name="TodoView" selected-index="4">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="13" y="0" width="1346" height="788" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.19129083" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.18654434" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.50152904" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32874617" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32721713" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Jms Messenger" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.33736762" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5008183" side_tool="true" weight="0.24962178" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.16885246" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32786885" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Jms Messenger" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spark" />
+    <MESSAGE value="spark-" />
+    <MESSAGE value="spark_parse" />
+    <option name="LAST_COMMIT_MESSAGE" value="spark_parse" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Data/jsonTest.txt" />
+    <entry file="file://$PROJECT_DIR$/Data/Data.json" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/offcn/util/ParseJosnData.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.1/scala-parser-combinators_2.11-1.0.1-sources.jar!/scala/util/parsing/json/Parser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="96" column="11" selection-start-line="96" selection-start-column="11" selection-end-line="96" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/111.csv/part-00000-d7343508-5ede-4f67-9194-1be9b0d0a667.csv" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/offcn/util/ParseJsonData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/group.csv/part-00000-7a4b097e-f5cf-45e6-9baa-abc75e1391dc.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/conver.csv/part-00000-16e8ed93-01bb-4796-8beb-7ce670a5cb24.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/group.csv/part-00000-b43e4b69-3ddd-4879-a376-85377b68a633.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/GroupTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="11" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/ConversationTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="28" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/user.csv/part-00000-c835afb8-15d1-43e2-80eb-3fc1d089a9cf.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/user.csv/part-00000-be25695a-85fe-4754-8b75-4e1c556b83a8.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/user.csv/part-00000-7d2f80d3-2716-43be-80e2-63490999ecf2.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/group.csv/part-00000-bde8cf20-4b92-422e-8dca-4215beb5abb6.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/user.csv/part-00000-8d3c12e6-3839-4f06-a2ff-06c89c7c77a7.csv" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/UserTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="37" selection-start-line="2" selection-start-column="22" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.47/fastjson-1.2.47.jar!/com/alibaba/fastjson/JSONArray.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#1813#1814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/user.csv/part-00000-2d6d7bff-a46e-4644-b826-5d1c2ebcae01.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/chats.csv/part-00000-dca24724-0371-49d6-ba77-0a09d135f7f2.csv" />
+    <entry file="file://$PROJECT_DIR$/Data/group.csv/part-00000-de03da90-8004-4157-962b-3830b55b99c9.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/chats.csv/part-00000-e0e8a04a-6a77-4cf8-a517-c317914479c5.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/conver.csv/part-00000-b9a993e5-3a3e-4536-9f26-87ca44dbcd1f.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10230">
+          <caret line="80" column="48" lean-forward="true" selection-start-line="80" selection-start-column="47" selection-end-line="80" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/Mement_LikesnsTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/Mement_ContentTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/BaseTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="72" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/ChatsTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="43" selection-start-line="3" selection-start-column="25" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/BaseData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/user.csv/part-00002-23fbf241-47fa-4f11-8b82-04fa8399ea92.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/conver.csv/part-00000-1a62feb0-de78-41c7-b217-64ffc842495e.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/conver.csv/part-00001-1a62feb0-de78-41c7-b217-64ffc842495e.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/conver.csv/part-00002-1a62feb0-de78-41c7-b217-64ffc842495e.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/user.csv/part-00000-23fbf241-47fa-4f11-8b82-04fa8399ea92.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/JsonData.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="45" column="8" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
+          <folding>
+            <element signature="e#27#52#0" expanded="true" />
+            <element signature="e#12367#12387#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/com/offcn/wechat/bean/MementTable_Commentsns.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-220" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JsonDatas</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
